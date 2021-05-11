@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\andre\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\andre\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_WireMockExample.-118025401.00" t="ExcludeRecursive" />
+    <e p="C:\Users\andre\RiderProjects\WireMockDotNETCore\WireMockExample" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src" t="Include" />
+      <e p="WireMockExample.Api" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Domains" t="Include">
+          <e p="Base" t="Include">
+            <e p="Entity.cs" t="Include" />
+          </e>
+          <e p="Entities" t="Include">
+            <e p="User.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="IEntity.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="WireMockExample.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repository" t="Include">
+          <e p="Base" t="Include">
+            <e p="Repository.cs" t="Include" />
+          </e>
+          <e p="Context" t="Include">
+            <e p="ConnectionFactory.cs" t="Include" />
+            <e p="IConnectionFactory.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="IRepository.cs" t="Include" />
+          </e>
+          <e p="UserRepository.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="Interfaces" t="Include">
+            <e p="IUserServices.cs" t="Include" />
+          </e>
+          <e p="UserServices.cs" t="Include" />
+        </e>
+        <e p="Settings" t="Include">
+          <e p="MongoDBSettings.cs" t="Include" />
+        </e>
+        <e p="WireMockExample.Api.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WireMockExample.Presentation" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="UserController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="WireMockExample.Presentation.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WireMockExample.Presentation.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WireMockExample.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

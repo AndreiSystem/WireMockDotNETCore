@@ -1,10 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C2E0E535-C1D9-4D3B-ABC5-BFA08F2CDBEA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{22241879-CDF3-4652-B21E-7D36D73159B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WireMockExample.Presentation", "WireMockExample.Presentation\WireMockExample.Presentation.csproj", "{B7DC2284-C8D4-434E-B590-CC52753B930F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WireMockExample.Api", "WireMockExample.Api\WireMockExample.Api.csproj", "{15BD94B3-1E0E-4BF0-996F-3335905C2ECE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7DC2284-C8D4-434E-B590-CC52753B930F} = {22241879-CDF3-4652-B21E-7D36D73159B5}
+		{15BD94B3-1E0E-4BF0-996F-3335905C2ECE} = {22241879-CDF3-4652-B21E-7D36D73159B5}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7DC2284-C8D4-434E-B590-CC52753B930F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7DC2284-C8D4-434E-B590-CC52753B930F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7DC2284-C8D4-434E-B590-CC52753B930F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7DC2284-C8D4-434E-B590-CC52753B930F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15BD94B3-1E0E-4BF0-996F-3335905C2ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BD94B3-1E0E-4BF0-996F-3335905C2ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15BD94B3-1E0E-4BF0-996F-3335905C2ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15BD94B3-1E0E-4BF0-996F-3335905C2ECE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
