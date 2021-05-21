@@ -13,17 +13,16 @@
   <component name="ChangeListManager">
     <list default="true" id="29d2095f-d9bb-4887-8053-6b4fd15574d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WireMockExample/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WireMockExample/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WireMockExample/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WireMockExample/.idea/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WireMockExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WireMockExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegisterUsers.Core/Domain/Base/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.Core/Domain/Base/Entity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegisterUsers.Core/Domain/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.Core/Domain/Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegisterUsers.Core/Domain/Intefaces/IEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.Core/Domain/Intefaces/IEntity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RegisterUsers.Core/RegisterUsers.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.Core/RegisterUsers.Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegisterUsers.Core/Repository/Base/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.Core/Repository/Base/Repository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegisterUsers.Core/Repository/Intefaces/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.Core/Repository/Interfaces/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegisterUsers.Core/Services/Interfaces/IUserServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.Core/Services/Interfaces/IUserServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegisterUsers.Core/Services/UserServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.Core/Services/UserServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegisterUsers.WebApi/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.WebApi/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegisterUsers.WebApi/Middlewares/DependencyInjectionMidlleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.WebApi/Middlewares/DependencyInjectionMidlleware.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegisterUsers.Core/WebService/GithubService/Github.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.Core/WebService/GithubService/Github.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegisterUsers.Core/WebService/GithubService/HttpRequestGithub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.Core/WebService/GithubService/HttpRequestGithub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegisterUsers.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.WebApi/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegisterUsers.WebApi/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.WebApi/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegisterUsers.WebApi/RegisterUsers.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.WebApi/RegisterUsers.WebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegisterUsers.WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterUsers.WebApi/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WireMockExample.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WireMockExample.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +58,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/WireMockExample.Api/Repository/UserRepository.cs" />
-      <option value="$PROJECT_DIR$/WireMockExample.Api/Services/Interfaces/IUserServices.cs" />
-      <option value="$PROJECT_DIR$/WireMockExample.Api/Repository/Interfaces/IRepository.cs" />
-      <option value="$PROJECT_DIR$/WireMockExample.Api/Repository/Base/Repository.cs" />
       <option value="$PROJECT_DIR$/WireMockExample.Api/Services/UserServices.cs" />
       <option value="$PROJECT_DIR$/WireMockExample.Presentation/Middlewares/Swagger.cs" />
       <option value="$PROJECT_DIR$/WireMockExample.Presentation/Middlewares/DependencyInjection.cs" />
@@ -82,9 +77,7 @@
       <option value="$PROJECT_DIR$/RegisterUsers.Core/Repository/Context/IContext.cs" />
       <option value="$PROJECT_DIR$/RegisterUsers.Core/Repository/Context/ConnectionFactory.cs" />
       <option value="$PROJECT_DIR$/RegisterUsers.Core/Settings/RegisterUsersDbConfig.cs" />
-      <option value="$PROJECT_DIR$/RegisterUsers.WebApi/Startup.cs" />
       <option value="$PROJECT_DIR$/RegisterUsers.Core/Settings/MongoDbSetting.cs" />
-      <option value="$PROJECT_DIR$/RegisterUsers.WebApi/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/RegisterUsers.WebApi/appsettings.json" />
       <option value="$PROJECT_DIR$/RegisterUsers.Core/Domain/Entities/User.cs" />
       <option value="$PROJECT_DIR$/RegisterUsers.Core/Repository/UserRepository.cs" />
@@ -100,7 +93,6 @@
       <option value="$PROJECT_DIR$/RegisterUsers.Core/WebService/Commons/UriQueryFactory.cs" />
       <option value="$PROJECT_DIR$/RegisterUsers.WebApi/Middlewares/DependencyInjectionMidlleware.cs" />
       <option value="$PROJECT_DIR$/RegisterUsers.Core/WebService/GithubService/QueryStringGithubUser.cs" />
-      <option value="$PROJECT_DIR$/RegisterUsers.Core/WebService/GithubService/Github.cs" />
       <option value="$PROJECT_DIR$/RegisterUsers.Core/Repository/Base/Repository.cs" />
       <option value="$PROJECT_DIR$/RegisterUsers.Core/Repository/Intefaces/IRepository.cs" />
       <option value="$PROJECT_DIR$/RegisterUsers.Core/Repository/Interfaces/IRepository.cs" />
@@ -109,6 +101,13 @@
       <option value="$PROJECT_DIR$/RegisterUsers.Core/Domain/Base/Entity.cs" />
       <option value="$PROJECT_DIR$/RegisterUsers.Core/Services/UserServices.cs" />
       <option value="$PROJECT_DIR$/RegisterUsers.WebApi/Controllers/UsersController.cs" />
+      <option value="$PROJECT_DIR$/WireMockExample.Api.Tests.Integration/Class1.cs" />
+      <option value="$PROJECT_DIR$/RegisterUsers.WebApi/Program.cs" />
+      <option value="$PROJECT_DIR$/RegisterUsers.WebApi/Startup.cs" />
+      <option value="$PROJECT_DIR$/RegisterUsers.Core/WebService/GithubService/Github.cs" />
+      <option value="$PROJECT_DIR$/WireMockExample.Api.Tests.Integration/UserControllerTests.cs" />
+      <option value="$PROJECT_DIR$/RegisterUsers.Core/Settings/EnvironmentVariablesGithubApi.cs" />
+      <option value="$PROJECT_DIR$/RegisterUsers.WebApi/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/RegisterUsers.Core/WebService/GithubService/HttpRequestGithub.cs" />
     </changedPaths>
   </component>
@@ -201,7 +200,7 @@
       <workItem from="1621216054168" duration="50000" />
       <workItem from="1621216149668" duration="232000" />
       <workItem from="1621216593303" duration="18060000" />
-      <workItem from="1621567098652" duration="7090000" />
+      <workItem from="1621567098652" duration="12589000" />
     </task>
     <servers />
   </component>
@@ -262,29 +261,42 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/RegisterUsers.Core/WebService/GithubService/Github.cs</url>
-          <line>24</line>
+          <line>22</line>
           <properties documentPath="C:\Users\andre\RiderProjects\WireMockDotNETCore\WireMockExample\RegisterUsers.Core\WebService\GithubService\Github.cs" initialLine="25" containingFunctionPresentation="method 'GetUser'">
             <startOffsets>
-              <option value="937" />
+              <option value="800" />
             </startOffsets>
             <endOffsets>
-              <option value="1037" />
+              <option value="900" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/RegisterUsers.Core/WebService/GithubService/Github.cs</url>
-          <line>41</line>
-          <properties documentPath="C:\Users\andre\RiderProjects\WireMockDotNETCore\WireMockExample\RegisterUsers.Core\WebService\GithubService\Github.cs" initialLine="41" containingFunctionPresentation="method 'GetUser'">
+          <url>file://$PROJECT_DIR$/RegisterUsers.WebApi/Program.cs</url>
+          <line>16</line>
+          <properties documentPath="C:\Users\andre\RiderProjects\WireMockDotNETCore\WireMockExample\RegisterUsers.WebApi\Program.cs" initialLine="16" containingFunctionPresentation="method 'Main'">
             <startOffsets>
-              <option value="1476" />
+              <option value="404" />
             </startOffsets>
             <endOffsets>
-              <option value="1529" />
+              <option value="441" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="27" />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WireMockExample.Api.Tests.Integration/UserControllerTests.cs</url>
+          <line>34</line>
+          <properties documentPath="C:\Users\andre\RiderProjects\WireMockDotNETCore\WireMockExample\WireMockExample.Api.Tests.Integration\UserControllerTests.cs" initialLine="26" containingFunctionPresentation="method 'GetUser_Should_Return_User_When_Exists'">
+            <startOffsets>
+              <option value="1125" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1314" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

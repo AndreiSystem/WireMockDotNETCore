@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\andre\.nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\andre\.nuget\packages\microsoft.testplatform.testhost\16.9.4\build\netcoreapp2.1\x64\Microsoft.TestPlatform.PlatformAbstractions.dll" t="Include" />
+    <e p="C:\Users\andre\.nuget\packages\microsoft.testplatform.testhost\16.9.4\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\andre\.nuget\packages\microsoft.testplatform.testhost\16.9.4\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
     <e p="C:\Users\andre\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\andre\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_WireMockExample.-118025401.00" t="ExcludeRecursive" />
     <e p="C:\Users\andre\RiderProjects\WireMockDotNETCore\WireMockExample" t="IncludeFlat">
@@ -46,6 +52,7 @@
           <e p="UserServices.cs" t="Include" />
         </e>
         <e p="Settings" t="Include">
+          <e p="EnvironmentVariablesGithubApi.cs" t="Include" />
           <e p="MongoDbSetting.cs" t="Include" />
         </e>
         <e p="WebService" t="Include">
@@ -91,6 +98,19 @@
         <e p="Startup.cs" t="Include" />
       </e>
       <e p="src" t="Include" />
+      <e p="tests" t="Include" />
+      <e p="WireMockExample.Api.Tests.Integration" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="WireMockExample.Api.Tests.Integration.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="UserControllerTests.cs" t="Include" />
+        <e p="WireMockExample.Api.Tests.Integration.csproj" t="IncludeRecursive" />
+      </e>
       <e p="WireMockExample.sln" t="IncludeFlat" />
     </e>
   </component>

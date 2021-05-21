@@ -27,7 +27,9 @@
         "ASPNETCORE_ENVIRONMENT": "Development",
         "DATABASENAME": "RegisterUserDb",
         "COLLECTIONNAME": "Users",
-        "CONNECTIONSTRING": "mongodb://localhost:27017"
+        "CONNECTIONSTRING": "mongodb://localhost:27017",
+        "GITHUB_URI": "https://api.github.com/users/",
+        "GITHUB_AUTH": "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"
       }
     }
   }

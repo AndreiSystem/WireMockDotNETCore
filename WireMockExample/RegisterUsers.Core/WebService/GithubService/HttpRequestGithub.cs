@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net.Http;
+using RegisterUsers.Core.Settings;
 using RegisterUsers.Core.WebService.GithubService.Contracts;
 
 namespace RegisterUsers.Core.WebService.GithubService
@@ -10,11 +11,11 @@ namespace RegisterUsers.Core.WebService.GithubService
         {
             return new HttpRequestMessage
             {
-                RequestUri = new Uri(new Uri("https://api.github.com/users/"), queryString),
+                RequestUri = new Uri(new Uri(EnvironmentVariablesGithubApi.GithubUri), queryString),
                 Method = HttpMethod.Get,
                 Headers =
                 {
-                    {"autorization", "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"},
+                    {"autorization", EnvironmentVariablesGithubApi.GithubAuth},
                     {"User-Agent", "WireMock Integration Tests"}
                 }
             };
