@@ -6,6 +6,7 @@
 
     <ItemGroup>
       <PackageReference Include="FluentAssertions" Version="6.0.0-alpha0002" />
+      <PackageReference Include="Kralizek.AutoFixture.Extensions.AspNetCore.WebApplicationFactory" Version="1.1.0" />
       <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
       <PackageReference Include="NBuilder" Version="6.1.0" />
       <PackageReference Include="NSubstitute" Version="4.2.2" />
@@ -15,6 +16,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\RegisterUsers.Core\RegisterUsers.Core.csproj" />
+      <ProjectReference Include="..\RegisterUsers.WebApi\RegisterUsers.WebApi.csproj" />
     </ItemGroup>
 
 </Project>
