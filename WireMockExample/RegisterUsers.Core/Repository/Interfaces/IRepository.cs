@@ -7,7 +7,6 @@ namespace RegisterUsers.Core.Repository.Intefaces
     {
         IQueryable<T> QueryAll();
 
-        T Query(string id);
         void Insert(T obj);
     }
 }
