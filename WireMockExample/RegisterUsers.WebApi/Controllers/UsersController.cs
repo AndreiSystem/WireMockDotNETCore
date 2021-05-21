@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using RegisterUsers.Core.Domain.Entities;
 using RegisterUsers.Core.Services.Interfaces;
 
 namespace RegisterUsers.WebApi.Controllers
@@ -12,46 +9,18 @@ namespace RegisterUsers.WebApi.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserServices _userServices;
-        
         public UserController(IUserServices userServices)
         {
             _userServices = userServices;
         }
 
-        [HttpGet("{id}")]
-        public ActionResult<User> Get([FromRoute] string id)
+        [HttpGet("{userName}")]
+        public async Task<ActionResult> GetUsersFromGithub([FromRoute] string userName)
         {
-            var result = _userServices.Query(id);
 
-            return Ok(result);
-        }
-        
-        [HttpGet]
-        public ActionResult<IEnumerable<User>> GetAll()
-        {
-            try
-            {
-                var result = _userServices.QueryAll();
+            var user = await _userServices.GetUserGithub(userName);
 
-                return Ok(result.ToList());
-            }
-            catch (Exception)
-            {
-                return new StatusCodeResult(500);
-            }
-        }
-        
-        [HttpPost]
-        public ActionResult<User> Insert([FromBody] User user)
-        {
-            try
-            {
-                return Ok( _userServices.InsertOrUpdate(user).Id);
-            }
-            catch (Exception)
-            {
-                return new StatusCodeResult(500);
-            }
+            return Ok(user);
         }
     }
 }

@@ -1,7 +1,6 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 
-namespace RegisterUsers.Core.Repository.Intefaces
+namespace RegisterUsers.Core.Repository.Interfaces
 {
     public interface IRepository<T>
     {

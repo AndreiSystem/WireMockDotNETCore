@@ -34,7 +34,7 @@
             <e p="ConnectionFactory.cs" t="Include" />
             <e p="IConnectionFactory.cs" t="Include" />
           </e>
-          <e p="Intefaces" t="Include">
+          <e p="Interfaces" t="Include">
             <e p="IRepository.cs" t="Include" />
           </e>
           <e p="UserRepository.cs" t="Include" />
@@ -47,6 +47,23 @@
         </e>
         <e p="Settings" t="Include">
           <e p="MongoDbSetting.cs" t="Include" />
+        </e>
+        <e p="WebService" t="Include">
+          <e p="Commons" t="Include">
+            <e p="IUriQueryFactory.cs" t="Include" />
+            <e p="UriQueryFactory.cs" t="Include" />
+          </e>
+          <e p="GithubHttpClient.cs" t="Include" />
+          <e p="GithubService" t="Include">
+            <e p="Contracts" t="Include">
+              <e p="IGithub.cs" t="Include" />
+              <e p="IHttpRequestGithub.cs" t="Include" />
+            </e>
+            <e p="Github.cs" t="Include" />
+            <e p="HttpRequestGithub.cs" t="Include" />
+            <e p="QueryStringGithubUser.cs" t="Include" />
+          </e>
+          <e p="IGithubHttpClient.cs" t="Include" />
         </e>
       </e>
       <e p="RegisterUsers.WebApi" t="IncludeRecursive">

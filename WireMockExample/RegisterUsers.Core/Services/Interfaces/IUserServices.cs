@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Linq;
+using System.Threading.Tasks;
 using RegisterUsers.Core.Domain.Entities;
 
 namespace RegisterUsers.Core.Services.Interfaces
 {
     public interface IUserServices
     {
-        IQueryable<User> QueryAll();
-        User Query(string id);
-        User InsertOrUpdate(User user);
+        Task<User> GetUserGithub(string userName);
     }
 }

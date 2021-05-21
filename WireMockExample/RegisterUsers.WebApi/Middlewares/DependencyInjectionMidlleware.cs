@@ -3,10 +3,14 @@ using Microsoft.Extensions.DependencyInjection;
 using RegisterUsers.Core.Domain.Entities;
 using RegisterUsers.Core.Repository;
 using RegisterUsers.Core.Repository.Context;
-using RegisterUsers.Core.Repository.Intefaces;
+using RegisterUsers.Core.Repository.Interfaces;
 using RegisterUsers.Core.Services;
 using RegisterUsers.Core.Services.Interfaces;
 using RegisterUsers.Core.Settings;
+using RegisterUsers.Core.WebService;
+using RegisterUsers.Core.WebService.Commons;
+using RegisterUsers.Core.WebService.GithubService;
+using RegisterUsers.Core.WebService.GithubService.Contracts;
 
 namespace RegisterUsers.WebApi.Middlewares
 {
@@ -23,6 +27,11 @@ namespace RegisterUsers.WebApi.Middlewares
                     mongoDbSettings.CollectionName));
 
             services.AddTransient<IUserServices, UserServices>();
+            services.AddScoped<IGithub, Github>();
+            services.AddScoped<IGithubHttpClient, GithubHttpClient>();
+            services.AddScoped<IHttpRequestGithub, HttpRequestGithub>();
+            services.AddScoped<IUriQueryFactory, UriQueryFactory>();
+            services.AddHttpClient<IGithubHttpClient, GithubHttpClient>();
         }
     }
 }
